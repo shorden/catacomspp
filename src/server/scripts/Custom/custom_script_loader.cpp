@@ -22,9 +22,11 @@
 // void Add${NameOfDirectory}Scripts()
 void AddSolocraftScripts();
 void AddSC_skip_StarterArea();
+void AddSC_start_equipment();
 
 void AddCustomScripts()
 {
 	AddSolocraftScripts();
 	AddSC_skip_StarterArea();
+    AddSC_start_equipment();
 }
